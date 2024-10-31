@@ -1,6 +1,6 @@
 import React from 'react'
 import c from './banner.module.scss'
-import bannerIcon from '../../icons/memoji/✌️.png'
+import bannerIcon from '../../icons/memoji/image.jpg'
 
 import instagram from '../../icons/social/instagram.svg'
 import twitter from '../../icons/social/twitter.svg'
