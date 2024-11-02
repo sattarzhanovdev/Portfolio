@@ -19,6 +19,9 @@ import Kelvin1 from './projects/Kelvin-1.png'
 import TechnoFoods1 from './projects/Technofoods-1.png'
 import Turkmed1 from './projects/Turkmed-1.png'
 import VSHMOP1 from './projects/VSHMOP-1.png'
+import GateMaster from './projects/GateMaster.png'
+import CRM from './projects/CRM.png'
+import TechnofoodsBranding from './projects/Technofoods - branding.png'
 
 export const Images = {
   logo,
@@ -41,5 +44,8 @@ export const Images = {
   Kelvin1,
   TechnoFoods1,
   Turkmed1,
-  VSHMOP1
+  VSHMOP1,
+  GateMaster,
+  CRM,
+  TechnofoodsBranding
 }

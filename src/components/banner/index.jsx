@@ -3,8 +3,9 @@ import c from './banner.module.scss'
 import bannerIcon from '../../icons/memoji/image.jpg'
 
 import instagram from '../../icons/social/instagram.svg'
-import twitter from '../../icons/social/twitter.svg'
-import facebook from '../../icons/social/facebook.svg'
+import telegram from '../../icons/social/telegram.svg'
+import linkedin from '../../icons/social/Linkedin.svg'
+import { Link } from 'react-router-dom'
 
 const Banner = () => {
   return (
@@ -23,7 +24,7 @@ const Banner = () => {
           <div className={c.info}>
             <h3>Biography</h3>
             <p>
-              Getting Buff +1 for learning, Buff +2 for documentation and more buff on managing team. Exicited on <span>React</span>, <span>UX Research</span> and <span>Agile</span>.
+              <span>Daniel Sattarzhanov</span> is a driven IT and business student, currently in his second year at the Salymbekov International College of IT and Business. As the founder of <span>DevDesign</span>, he has completed ten projects over the past year, working as both a <span>project manager</span> and <span>frontend developer</span>. With experience at <span>ITEK</span> and <span>CRYXXEN</span>, he has built skills in technical specifications, teamwork, and client relations, making him a promising talent in the IT industry.            
             </p>
           </div>
           <div className={c.socials}>
@@ -32,22 +33,28 @@ const Banner = () => {
             </h3>
             <div className={c.icons}>
               <div>
-                <img 
-                  src={instagram}
-                  alt="instagram"
-                />
+                <Link to={'https://instagram.com/sattarzanovv'}>
+                  <img 
+                    src={instagram}
+                    alt="instagram"
+                  />
+                </Link>
               </div>
               <div>
-                <img 
-                  src={twitter}
-                  alt="twitter"
-                />
+                <Link to={'https://instagram.com/sattarzanovv'}>
+                  <img 
+                    src={telegram}
+                    alt="instagram"
+                  />
+                </Link>
               </div>
               <div>
-                <img 
-                  src={facebook}
-                  alt="facebook"
-                />
+                <Link to={'https://instagram.com/sattarzanovv'}>
+                  <img 
+                    src={linkedin}
+                    alt="instagram"
+                  />
+                </Link>
               </div>
             </div>
           </div>

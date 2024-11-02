@@ -139,6 +139,12 @@ export const StacksList = [
     percent: 80,
     direction: 'Arduino'
   },
+  {
+    id: 18, 
+    title: 'Kanban',
+    percent: 90,
+    direction: 'Project management'
+  },
 ]
 
 export const PUBLIC_ROUTES = [
@@ -287,5 +293,38 @@ export const Projects = [
       'Backend' 
     ],
     link: 'https://amway-site.netlify.app/'
-  }
+  },
+  {
+    id: 11, 
+    title: 'GateMaster',
+    image: Images.GateMaster,
+    image2: Images.GateMaster ,
+    stacks: [
+      'Frontend',
+      'Arduino' 
+    ],
+    link: 'https://www.instagram.com/reel/DASYlELNF-7/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='
+  },
+  {
+    id: 12, 
+    title: 'CRM Fitness',
+    image: Images.CRM,
+    image2: Images.CRM ,
+    stacks: [
+      'Frontend',
+      'Backend',
+      'Design' 
+    ],
+    link: 'https://crm-fitness.vercel.app/'
+  },
+  {
+    id: 13, 
+    title: 'Technofoods - branding',
+    image: Images.TechnofoodsBranding,
+    image2: Images.TechnofoodsBranding ,
+    stacks: [
+      'Design'
+    ],
+    link: 'https://www.figma.com/design/siBse5vymf0ayH8koKf1vM/Technofoods---designs?node-id=0-1&t=FHi0AeES3JbBRVSJ-1'
+  },
 ]
